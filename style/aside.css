@@ -1,0 +1,91 @@
+.aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 833px) {
+  .aside {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Slider */
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider__block {
+  width: 250px;
+  overflow: hidden;
+}
+.slider__list {
+  display: flex;
+  width: 1250px;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  transition: all ease 1s;
+}
+
+.slider__img {
+  width: 250px;
+  height: 250px;
+}
+
+.arrow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow__next {
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  background: linear-gradient(to bottom, #f0fc4b 5%, #2799f0 100%);
+  background-color: #f0fc4b;
+  border-radius: 6px;
+  border: 1px solid #ffaa22;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-shadow: 0px 1px 0px #ffee66;
+}
+
+.arrow__prev {
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  background: linear-gradient(to bottom, #f0fc4b 5%, #2799f0 100%);
+  background-color: #f0fc4b;
+  border-radius: 6px;
+  border: 1px solid #ffaa22;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffee66;
+}
+
+.arrow__next:hover {
+  background: linear-gradient(to bottom, #2799f0 5%, #f0fc4b 100%);
+  background-color: #2799f0;
+}
+
+.arrow__prev:hover {
+  background: linear-gradient(to bottom, #2799f0 5%, #f0fc4b 100%);
+  background-color: #2799f0;
+}
+
+.sport-video {
+  margin-top: 20px;
+}

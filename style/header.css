@@ -1,0 +1,27 @@
+.header {
+  margin-bottom: 50px;
+}
+
+.logo-block {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+.logo__img {
+  max-width: 100%;
+}
+.title-block {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.title__item {
+  margin: 0;
+}
+.header__info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
