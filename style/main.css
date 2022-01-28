@@ -64,8 +64,9 @@
 }
 
 .hobbies__list {
-  padding-left: 17px;
+  list-style: inside;
   margin-top: 0;
+  padding: 0;
 }
 
 .hobbies__item {
@@ -86,6 +87,7 @@
   flex-wrap: wrap;
   margin-top: 0;
   list-style: none;
+  padding: 0;
 }
 
 .technical-skills__item {
@@ -103,13 +105,14 @@
   padding: 0px 20px;
   flex: 0 1 35%;
 }
-.soft-skills__title {
-}
+
 .soft-skills__list {
-  padding-left: 17px;
+  list-style: inside;
+  padding: 0;
 }
 .soft-sfills__item {
   margin-bottom: 10px;
+  text-align: center;
   font-size: 18px;
   color: rgb(3, 117, 31);
 }
